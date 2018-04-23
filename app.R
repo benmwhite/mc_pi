@@ -8,9 +8,9 @@ ui <- fluidPage(
       sliderInput("n",
                   "Number of samples to generate:",
                   min = 0,
-                  max = 10000,
+                  max = 50000,
                   value = 100,
-                  step = 5)
+                  step = 20)
     ),
     mainPanel(
       plotOutput("distPlot")
