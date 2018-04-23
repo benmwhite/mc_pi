@@ -8,7 +8,7 @@ ui <- fluidPage(
       sliderInput("n",
                   "Number of samples to generate:",
                   min = 0,
-                  max = 5000,
+                  max = 10000,
                   value = 100,
                   step = 5)
     ),
