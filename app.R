@@ -34,7 +34,7 @@ server <- function(input, output) {
     
     #plotting
     ggplot(samps, aes(x = X1, y = X2)) +
-      geom_point(aes(colour = in_circ), show.legend = FALSE) +
+      geom_point(aes(colour = in_circ), show.legend = FALSE, alpha = 0.05) +
       geom_path(data = circ, aes(x, y)) +
       xlab("x") +
       ylab("y") +
